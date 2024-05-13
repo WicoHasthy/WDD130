@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #1d3557;
+    --secondary-color: #B5E2FA;
+    --accent-color: #0FA3B1;
+    --additional-accent-color: #F7A072;
+    --heading-font: Outfit, Arial, sans-serif;
+    --paragraph-font: Outfit. Arial, sans-serif;
+    --navigation-bg-color: #219ebc;
+    --navigation-link-color: #EDDEA4;
+    --navigation-hover-link-color: #EDDEA4;
+    --navigation-hover-bg-color: #023047;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--navigation-bg-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--navigation-link-color);
+}
+
+nav a:link, nav a:visited {
+    color: var(--navigation-link-color);
+}
+
+nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-bg-color);
+}
+
